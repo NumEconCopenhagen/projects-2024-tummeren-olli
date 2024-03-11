@@ -4,11 +4,7 @@
 - Oliver
 - Tim 
 
-**test**
 
-**endnu en test** 
-
-**Måske jeg også kan teste???***
 
 This repository contains  
 1. Inaugural project. 
