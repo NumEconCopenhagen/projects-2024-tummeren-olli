@@ -1,8 +1,9 @@
 # Data analysis project
 
-Our project is titled **Uneployment rate in different areas in Denmark**.
-This project aims to show the difference in unemployment rates throughout different areas of Denmark. 
-In the later analysis this project also looks at the unemployment rate in different areas at the same time as other variables. 
+Our project is titled **Uneployment based on different unemployment insurance funds in Denmark**.
+This project aims to show the difference in unemployment throughout different unemployment insurance funds of Denmark. 
+In the later analysis this project also groups the different unemployment insurance funds by the professions, to see which of the 
+groups has the highest share in pct. of total unemployment. 
 
 The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
@@ -15,3 +16,5 @@ This is the table called: AUL01, which is also shown in our .ipynb file.
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 
 ``pip install matplotlib-venn``
+``pip install git+https://github.com/alemartinello/dstapi``
+``pip install pandas-datareader``
