@@ -300,7 +300,7 @@ class ExchangeEconomyClass:
         plt.scatter(omega_1, omega_2, color='blue', marker='o', alpha=0.8)
         plt.xlabel('$\omega_1$')
         plt.ylabel('$\omega_2$')
-        plt.title('Random set of allocations from $\omega$')
+        plt.title('Random set of allocations $\omega$')
         plt.grid(True)
         plt.show()
     
