@@ -36,7 +36,7 @@ class SolowModelHumanCapital:
             self.L[t+1] = (1 + p['n']) * self.L[t]
             growth_denominator = (1 + p['n']) * (1 + p['g'])
             if p['increase_saving'] and t > 0:
-                p['s_H'] += 0.00015 * self.Y_tilde[t-1]
+                p['s_H'] =min(p['s_H'] + 0.00015 * self.Y_tilde[t-1], 0.4)
             self.K_tilde[t + 1] = (p['s_K'] * self.Y_tilde[t] + (1 - p['delta']) * self.K_tilde[t]) / growth_denominator
             self.H_tilde[t + 1] = (p['s_H'] * self.Y_tilde[t] + (1 - p['delta']) * self.H_tilde[t]) / growth_denominator
             
